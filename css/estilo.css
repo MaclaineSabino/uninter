@@ -26,12 +26,13 @@
 }
 .conteudo{
   margin-top: 40px; /*dá um espaço na margem de cima em 40px*/
-  font-size: 24px;  /* tamanho do texto em 24 px*/
+  font-size: 20px;  /* tamanho do texto em 20 px*/
   width: 90%;  /*largura da div em 90% do tamanho da janela*/
   padding-left: 10px; /*espaçamento interno a esquerda em 10px*/
 }
 .subtitulo{
   text-align: center; /*alinhamento do texto na div de classe subtitulo*/
+  font-size: 25px;
 }
 #foto{/* margine e alinhamento da foto principal do site*/
   margin-top: 50px;
