@@ -22,6 +22,7 @@
   padding: 10px;  /*espaçamento interno da div*/
   background-color: antiquewhite; /*altera a cor do fundo*/
   font-size: 26px; /*tamanho do texto */
+  margin-top: 10px; /*margen superior em 10 px */
 }
 .conteudo{
   margin-top: 40px; /*dá um espaço na margem de cima em 40px*/
