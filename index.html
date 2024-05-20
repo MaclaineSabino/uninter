@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu portfólio</title>
+  <link rel="stylesheet" href="css/estilo.css">
+  
+</head>
+<body>
+  <div id="menu_principal">
+    <!--os links abaixo foram estilizados como botões, sendo 
+    que os links são para navegação interna da página, onde todo
+  conteúdo está em uma única página html-->
+    <a class="menu" id="link_sobremim" href="#">Sobre mim</a>
+    <a class="menu" id="link_fe" href="#">Formação educacional</a>
+    <a class="menu" id="link_pf" href="#">Portfólio</a>
+    <a class="menu" id="link_ct" href="#">Contato</a>
+  </div>
+  <div id="foto">
+    <img  src="images/avatar-5261900_640.png"><br>
+    <span class="subtitulo" id="titulo_profissao">software developer</span>
+   
+  </div>
+  <br><br>
+  
+  <div  class="conteiner">
+    
+    <div id="sobremim" class="conteudo">
+      <h2 class="subtitulo">Sobre mim</h2>
+      <p>Olá! Sou Elke Maclaine. Sou desenvolvedor de Apps e um entusiasta da tecnologia</p>
+      <p>Sou uma pessoa dedicada e focada em tudo que faço</p>
+      <p>Em momentos de folga, gosto de assistir filmes, séries e viajar</p>
+    </div>
+    <div id="formacaoeducacional" class="conteudo">
+      <h2 class="subtitulo">Formação Educacional</h2>
+      <p>Graduado em Lic. Plena em Matemática pela UESPI</p>
+      <p>Estudante de Análise e Desenvolvimento de Sistemas - UNINTER</p>
+     
+    </div>
+    <div id="portfolio" class="conteudo">
+      <h2 class="subtitulo">Portfólio</h2>
+
+
+      <div id="cont_apps">
+
+        <!-- para um melhor alinhamento foi usado uma tabela-->
+          <table>
+            <tr>
+              <th>
+                <img src="images/icone_gravadorvoz.png">
+
+              </th>
+               <th>
+                <h3 class="t_app">Gravador de Voz</h3>
+                App que grava áudios, sons próximo ao celular.
+                <p>
+                <a target="_blank" href="https://play.google.com/store/apps/details?id=com.pgapps.gravadordevoz">ver</a>
+              </p>
+              </th>
+            </tr>
+            <tr>
+              <th>
+                <img src="images/cinema_icone.png">
+
+              </th>
+               <th>
+                <h3 class="t_app">Cinemas Teresina</h3>
+                App que exibe os filmes em cartaz nos cinemas do shopping teresina e poty 
+                <p>
+                  <a target="_blank" href="https://play.google.com/store/apps/details?id=com.pgapps.cinemasteresina">ver</a>
+                </p>
+              </th>
+            </tr>
+            <tr>
+              <th>
+                <img src="images/financiamento_icone.png">
+
+              </th>
+               <th>
+                <h3 class="t_app">Financiamentos e Empréstimos</h3>
+                App de simulações de financiamentos e empréstimos
+                <p>
+                  <a target="_blank" href="https://play.google.com/store/apps/details?id=com.pgapps.calculosfinanceirosejuros">ver</a>
+                </p>
+              </th>
+            </tr>
+          </table>
+         
+      </div>
+
+
+    </div>
+    <div id="contato" class="conteudo">
+      <div id="formula_container">
+      <h2 class="subtitulo">Contato</h2>
+      <form>
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" size="30"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="nome" name="nome" size="30"><br>
+        <label for="nome">Assunto:</label><br>
+        <textarea ></textarea><br>
+        
+        <input type="button" value="ENVIAR" size="30">
+    </form>
+  </div>
+    </div>
+  </div>
+  <br><br><br>
+<!-- o arquivo externo de javascript foi colocado no final da página, para que 
+todo conteúdo seja lido, antes do mesmo pegar as referência das divs-->
+  <script src="scripts/script.js"></script>
+</body>
+</html>

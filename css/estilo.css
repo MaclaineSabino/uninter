@@ -1,0 +1,82 @@
+#menu_principal{
+ position:fixed; /* deixa o menu fixado para permanecer sempre visível no topo*/
+ left: 50%; /*centraliza o menu na página*/
+ transform: translateX(-50%);
+ top:0; /*fixa o menu no topo da página*/
+}
+.conteiner{
+  
+  width: 80%; /*ocupará 80 por cento da largura da janela*/
+  margin: 0 auto; /* centraliza a página na janela*/
+  margin-top: 10px;
+  background-color: #d6d2c0;
+  border:3px solid; /*define uma borda de largura 3 pixels na linha */
+  border-radius: 20px; /*define os cantos da borda de forma redondada*/
+}
+#titulo_profissao{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2.8rem;
+}
+.menu{
+  text-decoration: none; /*para retirar o sublinhado dos links*/
+  padding: 10px;  /*espaçamento interno da div*/
+  background-color: antiquewhite; /*altera a cor do fundo*/
+  font-size: 26px; /*tamanho do texto */
+}
+.conteudo{
+  margin-top: 40px; /*dá um espaço na margem de cima em 40px*/
+  font-size: 24px;  /* tamanho do texto em 24 px*/
+  width: 90%;  /*largura da div em 90% do tamanho da janela*/
+  padding-left: 10px; /*espaçamento interno a esquerda em 10px*/
+}
+.subtitulo{
+  text-align: center; /*alinhamento do texto na div de classe subtitulo*/
+}
+#foto{/* margine e alinhamento da foto principal do site*/
+  margin-top: 50px;
+  text-align: center;
+}
+
+form input{
+  font-size: 20px; /* tamanho do texto nas caixas do formulário*/
+  padding-top: 5px;  /*espaçamento na parte de cima interno das caixas do formulário*/
+  padding-bottom: 5px; /* espaçamento da parte de baixo interno das caixas de formulário*/
+}
+form textarea{ 
+  /*atributos configurados do textárea do formulário
+  tamanho do texto, largura, espaçamentos internos e altura
+  */
+  font-size: 20px;
+  width: 400px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 100px;
+}
+#contato{
+margin: 0  auto; /*centralizando o formulário na janela*/
+width: 50%; /*largura do formulário em 50% da janela*/
+  
+}
+
+#cont_apps a{/* referenciando os links de visitação dos apps*/
+  text-decoration: none; /*retira os efeitos, como sublinhado e mudança de cor padrão*/
+  background-color: rgb(0, 110, 255);/*cor do fundo*/
+  padding-right: 20px; /*espaços internos*/
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: black;
+
+}
+
+#cont_apps a:hover{/*alterando o estilo do link ao mover o ponteiro do mouse em cima*/
+  background-color: rgb(44, 42, 42);
+  color: white;
+}
+
+.t_app{
+  color: darkblue;
+
+}
+
+
