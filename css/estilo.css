@@ -2,7 +2,7 @@
  position:fixed; /* deixa o menu fixado para permanecer sempre visível no topo*/
  left: 50%; /*centraliza o menu na página*/
  transform: translateX(-50%);
- top:0; /*fixa o menu no topo da página*/
+ top:10px; /*fixa o menu 10px do topo da página*/
 }
 .conteiner{
   
@@ -15,14 +15,14 @@
 }
 #titulo_profissao{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 2.8rem;
+  font-size: 36px;
 }
 .menu{
   text-decoration: none; /*para retirar o sublinhado dos links*/
   padding: 10px;  /*espaçamento interno da div*/
   background-color: antiquewhite; /*altera a cor do fundo*/
-  font-size: 26px; /*tamanho do texto */
-  margin-top: 10px; /*margen superior em 10 px */
+  font-size: 16px; /*tamanho do texto */
+  margin-top: 100px; /*margin superior de 10px*/
 }
 .conteudo{
   margin-top: 40px; /*dá um espaço na margem de cima em 40px*/
@@ -36,6 +36,11 @@
 #foto{/* margine e alinhamento da foto principal do site*/
   margin-top: 50px;
   text-align: center;
+ 
+}
+#foto img{
+  max-width: 100px; /* máxima largura que a foto pode ter*/
+  max-height: 100px;/* máxima altura que a foto pode ter*/
 }
 
 form input{
@@ -59,6 +64,10 @@ width: 50%; /*largura do formulário em 50% da janela*/
   
 }
 
+
+.app_texto{
+  font-size: 18px;
+}
 #cont_apps a{/* referenciando os links de visitação dos apps*/
   text-decoration: none; /*retira os efeitos, como sublinhado e mudança de cor padrão*/
   background-color: rgb(0, 110, 255);/*cor do fundo*/
@@ -70,6 +79,10 @@ width: 50%; /*largura do formulário em 50% da janela*/
 
 }
 
+#cont_apps img{
+  max-width: 200px;
+  max-height: 200px;
+}
 #cont_apps a:hover{/*alterando o estilo do link ao mover o ponteiro do mouse em cima*/
   background-color: rgb(44, 42, 42);
   color: white;
